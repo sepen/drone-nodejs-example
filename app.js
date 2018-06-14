@@ -14,6 +14,6 @@ app.get("/user", function(req, res) {
 
 // listen 8080 port
 app.listen(port);
-console.log("Listening on port: " + port);
+console.log("Listening on port " + port);
 
 module.exports = app; // for testing
